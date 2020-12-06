@@ -1,7 +1,7 @@
 ## 游戏简介
 本游戏由ZZH、WHY、FJY共同开发
 
-若您在游玩过程中遇到问题，或者有宝贵的建议，请[QQ联系](http://wpa.qq.com/msgrd?v=3&uin=2270840074&site=qq&menu=yes "QQ联系")
+若您在游玩过程中遇到问题，或者有宝贵的建议，请在`Issues`提出，或者[QQ联系](http://wpa.qq.com/msgrd?v=3&uin=2270840074&site=qq&menu=yes "QQ联系")智障振豪。
 
 Have Fun!
 ## 环境需求
