@@ -10,7 +10,7 @@ import easygui
 #init  pygame
 #from pygame.button import Button
 
-os.chdir("D:\学校资料\大二上\编程实践\迷宫")  # 资源路径
+os.chdir("./resources")  # 资源路径
 Unique = False
 Gate = False
 if easygui.ynbox("是否开启传送门模式？"):
