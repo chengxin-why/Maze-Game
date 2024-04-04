@@ -12,7 +12,7 @@ Have Fun!
 #### 二、依赖的外部库：numpy、 easygui 和 pygame
 
 下载方式：
-1. 打开命令行（win10系统可以在左下角搜索栏输入`cmd`并按回车打开，如图所示）
+1. 打开命令行（win10系统可以在左下角搜索栏输入`cmd`并按回车打开，如图所示；Mac系统按command+回车之后输入`terminal`即可）
 
 	![](https://ftp.bmp.ovh/imgs/2020/12/78da8c536f4a9fe9.png)
 
