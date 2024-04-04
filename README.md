@@ -1,5 +1,5 @@
 ## 游戏简介
-本游戏由我、ZZH、FJY于2021年共同开发，作为云南大学课程设计。
+本游戏由我、ZZH、FJY于2020年共同开发，just for fun。
 
 若您在游玩过程中遇到问题，或者有宝贵的建议，请在`Issues`提出，或者[QQ联系](http://wpa.qq.com/msgrd?v=3&uin=2270840074&site=qq&menu=yes "QQ联系")智障振豪。
 
