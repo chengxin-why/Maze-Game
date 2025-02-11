@@ -1,5 +1,4 @@
 import random as rd
-import numpy as np
 from dataStructures import Queue
 from dataStructures import DisJointSet
 
