@@ -267,7 +267,7 @@ while running:
             running = False  # 开关关闭
         if event.type == pygame.KEYDOWN:  # 如果键盘事件
             if (
-                event.type == pygame.K_q
+                event.type == pygame.K_q  # 如果按下的是q键
                 and m.grid[int(my_people.rect.top / 32)][int(my_people.rect.left / 32)]
                 == 4
             ):  # 进行传送阵的检测
@@ -321,7 +321,8 @@ while running:
                         screen.blit(pygame.image.load("terminal.png"), (j * 32, i * 32))
                     if m.score[i][j] == 1:
                         screen.blit(pygame.image.load("tls.png"), (j * 32, i * 32))
-
+    # 终点一直可见
+    screen.blit(pygame.image.load("terminal.png"), (38 * 32, 18 * 32))
     # except:
     # pass
     # my_people.move()
@@ -339,7 +340,7 @@ while running:
     if (
         my_people.rect.left == 38 * 32
         and my_people.rect.top == 18 * 32
-        and count >= (m.scoreNum * 2 // 3)
+        and count >= (m.scoreNum * 2 // 3)  # 吃到的铜锣烧数量大于总数的2/3
     ):
         running = False
         win = True
