@@ -1,3 +1,5 @@
+**2025 Update：终于！！它终于被我发展完善，然后跑起来了！！！**
+
 ## 游戏简介
 本游戏由我、ZZH、FJY于2020年共同开发，just for fun。
 
@@ -5,28 +7,34 @@
 
 Have Fun!
 ## 环境需求
-#### 一、python 3.6+
+#### 1. python 3.6+
 
-[官方下载](https://www.python.org/downloads/ "官方下载")
+##### [官方下载](https://www.python.org/downloads/ "官方下载")
 
-#### 二、依赖的外部库：numpy、 easygui 和 pygame
+##### HomeBrew
+```bash
+brew install python3
+```
 
-下载方式：
-1. 打开命令行（win10系统可以在左下角搜索栏输入`cmd`并按回车打开，如图所示；Mac系统按command+回车之后输入`terminal`即可）
+##### apt-get
+```bash
+sudo apt-get install python3
+```
 
-	![](https://ftp.bmp.ovh/imgs/2020/12/78da8c536f4a9fe9.png)
 
-2. 输入`pip install numpy`并按回车，如图所示
+#### 2. 安装依赖
 
-	![](https://ftp.bmp.ovh/imgs/2020/12/74b7b62e47abc0de.png)
-
-3. 输入`pip install easygui`并按回车
-
-4. 输入`pip install pygame`并按回车
+```bash
+pip install -r requirements.txt
+```
 
 ## 游玩说明
 
-双击`start_game.py`运行游戏
+### 运行
+
+```bash
+python ./main.py
+```
 
 首先选择是否开启传送门模式、是否路径唯一：
 
